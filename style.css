@@ -118,11 +118,17 @@ nav ul li:hover {
 	flex-wrap: wrap;
 }
 .page-content .projects-section .project {
-	margin-right: 20px;
+	margin-right: 10%;
 	max-width: 195px;
 }
 .page-content .projects-section .project h4 {
 	margin: 0;
+}
+.page-content .projects-section .project  img{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 300px;
 }
 .page-content .projects-section .project .description {
 	font-size: 10px;
