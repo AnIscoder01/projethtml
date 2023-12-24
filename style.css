@@ -114,6 +114,8 @@ nav ul li:hover {
 	font-size: 3vw;
 }
 .page-content .projects-section .projects {
+	padding-top: 20%;
+	
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -125,10 +127,10 @@ nav ul li:hover {
 	margin: 0;
 }
 .page-content .projects-section .project  img{
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 5px;
-	width: 300px;
+	border: 1px solid #404040;
+	border-radius: 5%;
+	padding: 0px;
+	width: 250px;
 }
 .page-content .projects-section .project .description {
 	font-size: 10px;
@@ -161,4 +163,3 @@ footer .colonne p:hover {
 	height: 200px;
 	width: 200px;
 }
-
