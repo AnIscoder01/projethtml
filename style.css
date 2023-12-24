@@ -45,6 +45,9 @@ nav ul {
 	display: flex;
 	list-style-type: none;
 }
+nav ul a {
+	color: #000;
+}
 nav ul li {
 	margin-left: 20px;
 	cursor: pointer;
@@ -152,3 +155,4 @@ footer .colonne p:hover {
 	height: 200px;
 	width: 200px;
 }
+
