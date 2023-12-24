@@ -1,143 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
 
-body {
-	font-family: 'Noto Sans JP', sans-serif;
-	padding: 0 2%;
-	margin: 0;
-	background-image:url("bgimage.jpeg");
-	background-size: 100%;
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="style2.css" />
+		<title>
+			Visit tunisia web
+		</title>
+	</head>
+	<body>
+		<nav>
+			<div class="profile">
+				
+			</div>
+			<ul>
+				<li>Home</li>
+				<li>Contact</li>
+				<li>Details</li>
+			</ul>
+		</nav>
 
-}
-#discover{
-	position:fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -1;
-}
-nav {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	background-color: white;
-	position: sticky;
-	top: 0;
-}
-nav .profile {
-	display: flex;
-	align-items: center;
-}
-nav .profile img {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-}
-nav .profile h1 {
-	margin-left: 10px;
-	font-size: 15px;
-}
-nav ul {
-	display: flex;
-	list-style-type: none;
-}
-nav ul li {
-	margin-left: 20px;
-	cursor: pointer;
-	border-bottom: 1px solid #fff;
-}
-nav ul li:hover {
-	border-bottom-color: #000;
-}
+		<section class="page-content">
+			<header>
+				<h1>Let's discover Tunisia</h1>
+				<p>
+					"Things    don’t   turn   up   in   this   world   until   somebody   turns   them   up."
+				</p>
+				<button><a href="">James A.Garfield</a></button>
+			</header>
 
-.page-content {
-	margin: 4%;
-}
-.page-content header {
-	margin-top: 5%;
-	max-width: 80%;
-}
-.page-content header h1 {
-	margin: 0;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-size: 6vw;
-}
-.page-content header p {
-	line-height: 30px;
-	color: #818181;
-}
-.page-content header button {
-	background-color: inherit;
-	border: none;
-	outline: none;
-	padding: 0;
-	font-size: 15px;
-	font-weight: bold;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #ccc;
-	cursor: pointer;
-}
-.page-content header button:hover {
-	color: #ccc;
-	border-bottom-color: #000;
-}
-.page-content .presentation-image {
-	margin-top: 5%;
-}
-.page-content .presentation-image img {
-	max-width: 100%;
-	height: auto;
-}
+			<section class="presentation-image">
+				<video autoplay loop muted plays-inline id="discover">
+					<source src="Let's Discover Tunisia.mp4" type="video/mp4">
+				</video>
+			</section>
 
-.page-content .projects-section {
-	margin-top: 6%;
-}
-.page-content .projects-section h1 {
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	font-size: 3vw;
-}
-.page-content .projects-section .projects {
-	display: flex;
-	flex-wrap: wrap;
-}
-.page-content .projects-section .project {
-	margin-right: 20px;
-	max-width: 195px;
-}
-.page-content .projects-section .project h4 {
-	margin: 0;
-}
-.page-content .projects-section .project .description {
-	font-size: 10px;
-}
-.page-content .projects-section .project .dates {
-	font-size: 13px;
-	color: rgb(145, 145, 145);
-}
+			<section class="projects-section">
+				<h1>Projets réalisés</h1>
+				<div class="projects">
+					<div class="project">
+						<h4>Un robot créateur de cookies</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2015 - 2016</p>
+					</div>
+					<div class="project">
+						<h4>Prévision du caractère humain</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2016 - 2017</p>
+					</div>
+					<div class="project">
+						<h4>Création d'un assistant vocal</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2017 - 2018</p>
+					</div>
+					<div class="project">
+						<h4>Reconnaissance de formes</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2019 - 2020</p>
+					</div>
+					<div class="project">
+						<h4>Algorithme de reconnaissance d'objet</h4>
+						<p class="description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Molestias sunt, atque aliquid pariatur.
+						</p>
+						<p class="dates">Dates 2020 - 2021</p>
+					</div>
+				</div>
+			</section>
+		</section>
 
-footer {
-	margin-top: 5%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 10px;
-	background-color: #000;
-	color: white;
-}
-footer .colonne p {
-	font-size: 12px;
-	color: #ccc;
-	cursor: pointer;
-}
-footer .colonne p:hover {
-	color: #fff;
-}
-
-#pres-image{
-	border-radius: 20%;
-	height: 200px;
-	width: 200px;
-}
+		<footer>
+			<div class="colonne">
+				<h3>Mes services</h3>
+				<p>Développement de projet IA</p>
+				<p>Prestation en IA</p>
+				<p>Investissement en entreprises IA</p>
+			</div>
+			<div class="colonne">
+				<h3>Mon entreprise</h3>
+				<p>Équipe constituée de 20k ingénieurs</p>
+				<p>Une communauté active mondiale</p>
+				<p>Une entreprise à but lucratif</p>
+			</div>
+			<div class="colonne">
+				<h3>Mes adresses</h3>
+				<p>artificial@gmail.com</p>
+				<p>intelligence@gmail.com</p>
+				<p>google-science@google.com</p>
+			</div>
+		</footer>
+	</body>
+</html>
