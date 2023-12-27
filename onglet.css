@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 2%;
+	margin: 0;
+	background-image:url("bgimage.jpeg");
+	background-size: 100%;
+
+}
+#discover{
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+nav {
+
+	display:contents;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	position: sticky;
+	top: 0;
+}
+nav .profile {
+
+	display: flex;
+	align-items: center;
+}
+nav .profile img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 15px;
+}
+nav ul {
+	margin-left: 80%;
+	display: flex;
+	list-style-type: none;
+}
+nav ul a {
+	color: #000;
+}
+nav ul li {
+	margin-left: 20px;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+nav ul li:hover {
+	border-bottom-color: #000;
+}
+
+.page-content {
+	margin: 4%;
+}
+.page-content header {
+	margin-top: 5%;
+	max-width: 80%;
+}
+.page-content header h2 {
+	margin: 0;
+	color: #e1dcdc;
+	
+	text-transform: uppercase;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 4vw;
+}
+.page-content header p {
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	/*text-indent: 50px;*/
+	line-height: 30px;
+	color: #f7f6f6;
+}
+.page-content header a {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #070707;
+	cursor: pointer;
+	color: rgb(250, 249, 249);
+}
+.page-content header button:hover {
+	color: #ccc;
+	border-bottom-color: #000;
+}
+.page-content .presentation-image {
+	margin-top: 5%;
+}
+.page-content .presentation-image img {
+	max-width: 100%;
+	height: auto;
+}
+.page-content .paragraph p{
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-size-adjust: 50px;
+	font-size: 20px;
+	letter-spacing: 0px;
+	word-spacing: 10px;
+	/*text-indent: 50px;*/
+	line-height: 30px;
+	color: #f7f6f6;
+}
+
+.page-content .projects-section {
+	margin-top: 6%;
+}
+
+.page-content .projects-section p {
+    background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	letter-spacing: 0px;
+	word-spacing: 10px;
+	/*text-indent: 50px;*/
+	line-height: 30px;
+	color: #f7f6f6;
+    margin-top: 3%;
+}
+#douzz{
+    background:rgba(0, 0,0, 0.5);
+	text-align: left;
+	letter-spacing: 0px;
+	word-spacing: 10px;
+	/*text-indent: 50px;*/
+	line-height: 30px;
+	color: #f7f6f6;
+    margin-top: 5%;
+
+}
+#douz{
+    
+    
+    border-radius: 10%;
+	height: 50%;
+	width: 50%;
+}
+
+.page-content .projects-section h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3vw;}
+.page-content .projects-section .project {
+	margin-right: 10%;
+	max-width: 195px;
+}
+.page-content .projects-section .project p{
+    background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	/*text-indent: 50px;*/
+	line-height: 30px;
+	color: #f7f6f6;
+}
+
+.page-content .projects-section .project h2{
+	margin: 0;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Times New Roman', Times, serif;
+	position: relative;
+	text-align:center;
+}
+.page-content .projects-section .project h4 {
+	margin: 0;
+}
+
+.page-content .projects-section .project  img{
+	border: 1px solid #404040;
+	border-radius: 5%;
+	padding: 0px;
+	width: 300px;
+	height: 250px;
+}
+
+.page-content .projects-section .project .description {
+	font-size: 10px;
+}
+
+
+iframe{
+	padding-left: 23%;
+	width: 700px;
+	height: 500px;
+}
+
+.page-content .projects-section .project .dates {
+	font-size: 13px;
+	color: rgb(145, 145, 145);
+}
+
+footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+footer .colonne p:hover {
+	color: #fff;
+}
+
+#pres-image{
+	border-radius: 20%;
+	height: 200px;
+	width: 200px;
+}
