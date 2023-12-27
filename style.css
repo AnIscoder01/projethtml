@@ -139,6 +139,13 @@ nav ul li:hover {
 	font-size: 10px;
 }
 
+
+iframe{
+	padding-left: 23%;
+	width: 700px;
+	height: 500px;
+}
+
 .page-content .projects-section .project .dates {
 	font-size: 13px;
 	color: rgb(145, 145, 145);
