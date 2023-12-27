@@ -126,15 +126,19 @@ nav ul li:hover {
 .page-content .projects-section .project h4 {
 	margin: 0;
 }
+
 .page-content .projects-section .project  img{
 	border: 1px solid #404040;
 	border-radius: 5%;
 	padding: 0px;
-	width: 250px;
+	width: 300px;
+	height: 250px;
 }
+
 .page-content .projects-section .project .description {
 	font-size: 10px;
 }
+
 .page-content .projects-section .project .dates {
 	font-size: 13px;
 	color: rgb(145, 145, 145);
